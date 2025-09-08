@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 const Message = (props) => {
@@ -7,10 +6,22 @@ const Message = (props) => {
   return <h2 style={{ background: bgColor }}>{text}</h2>;
 };
 
+const Box = (props) => {
+  const {label, bgColor} = props;
+
+  return (<div style={{background: bgColor}}>
+    {label}
+  </div>);
+};
+
 function App() {
   return (
     <div className="App">
-      <Message text="first prop" bgColor="lavender" />
+      <Message className="text-3xl" text="first prop" />
+      <Box label="Grey box" 
+          bgColor="#BBB"
+
+      />
     </div>
   );
 }
