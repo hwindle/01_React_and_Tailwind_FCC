@@ -1,9 +1,16 @@
-fieldset {
-  display: flex;
-}
-
 label, input {
   display: block;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+label {
+  text-align: left;
 }
 
 label::after {
@@ -12,8 +19,6 @@ label::after {
 }
 
 input {
-  width: 100%;
-  border-radius: 5px;
   color: black;
   font-size: 1.2rem;
   padding: 0.3rem 1rem;

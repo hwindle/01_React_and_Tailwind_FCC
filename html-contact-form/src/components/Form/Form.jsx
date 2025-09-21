@@ -7,11 +7,15 @@ import CancelButton from '../CancelButton/CancelButton';
 
 
 function Form() {
+  const options = {option1: 'General enquiry', option2: 'Support request'};
+  const names = {name1: 'general', name2: 'support'};
+
   return (
     <form>
-      <Input />
-      <Input />
-      <RadioInputs />
+      <Input displayTitle='First name' name='firstName' type='text' />
+      <Input displayTitle='Last name' name='lastName' type='text' />
+      <Input displayTitle='Email' name='email' type='email' />
+      <RadioInputs options={options} optionNames={names} />
       <Textarea />
       <SubmitButton />
       <CancelButton />
