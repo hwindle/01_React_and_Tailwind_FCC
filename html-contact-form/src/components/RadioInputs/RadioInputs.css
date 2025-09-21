@@ -3,7 +3,7 @@ fieldset#radio {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
+
 }
 
 div.form-group {
@@ -11,6 +11,7 @@ div.form-group {
   justify-self: stretch;
   display: flex;
   flex-direction: row;
+  gap: 2ch;
   border: 1px solid  rgb(3, 46, 2);
   border-radius: 5px;
 }
@@ -22,8 +23,7 @@ fieldset#radio > label {
 
 
 fieldset#radio input[radio] {
-  
-  accent-color: rgb(3, 46, 2);
+
   margin-right: 30px;
 }
 

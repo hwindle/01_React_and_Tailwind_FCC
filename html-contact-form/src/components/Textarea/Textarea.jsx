@@ -1,10 +1,12 @@
 import './Textarea.css';
 
-function Textarea() {
+function Textarea({name}) {
   return (
-    <textarea name="name">
-      Some text
-    </textarea>
+    <>
+      <h4>Message</h4>
+      <textarea name={name}>
+      </textarea>
+    </>
   );
 }
 

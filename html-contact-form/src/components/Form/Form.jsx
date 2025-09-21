@@ -16,7 +16,7 @@ function Form() {
       <Input displayTitle='Last name' name='lastName' type='text' />
       <Input displayTitle='Email' name='email' type='email' />
       <RadioInputs options={options} optionNames={names} />
-      <Textarea />
+      <Textarea name='message' />
       <SubmitButton />
       <CancelButton />
     </form>

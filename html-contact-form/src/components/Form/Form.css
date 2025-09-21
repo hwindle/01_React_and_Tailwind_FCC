@@ -1,6 +1,8 @@
 form {
   background-color: white;
   border-radius: 10px;
+    
+  accent-color: rgb(3, 46, 2);
 }
 
 input, textarea {
