@@ -1,0 +1,12 @@
+fieldset {
+  display: flex;
+}
+
+label, input {
+  display: block;
+}
+
+input[radio] {
+  font-size: 1.2rem;
+  padding: 0.3rem 1rem;
+}
