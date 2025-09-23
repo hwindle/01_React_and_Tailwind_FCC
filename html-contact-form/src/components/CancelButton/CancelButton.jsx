@@ -1,4 +1,3 @@
-import './CancelButton.css';
 
 function CancelButton() {
   return (

@@ -1,8 +1,8 @@
 import './SubmitButton.css';
 
-function SubmitButton() {
+function SubmitButton({onFormSubmit}) {
   return (
-    <input id="submit-btn" type="submit" value="Submit" />
+    <input id="submit-btn" type="submit" value="Submit" onClick={onFormSubmit} />
   );
 }
 
